@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+	<title>TechAcademy Quizduell</title>
+	<link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+
+
+     <h1>Shut down your enthusiasm</h1>
+		 <span>in retro graphics</span>
+
+	<div class="quizmitte">
+
+
+	        	<div class="score">
+
+							<div class="timer">
+								<div class="remaining time" id="app"></div>
+							</div>
+
+	        			<div class="score-card">
+	        				 <span id="scoreCard">0</span>
+	        			</div>
+	        	</div>
+
+
+           <div class="question" id="questionBox">
+           </div>
+
+
+           <div class="options">
+           	  <ul id="ul">
+           	  	  <li id="op1" onclick="button(this)"></li>
+           	  	  <li id="op2" onclick="button(this)"></li>
+           	  	  <li id="op3" onclick="button(this)"></li>
+           	  	  <li id="op4" onclick="button(this)"></li>
+           	  </ul>
+           </div>
+
+
+					 <div class="next">
+							<button type="button" onclick="next()" id="button">Next</button>
+					 </div>
+
+					 <div class="repeat">
+						 <button type="button" onclick="repeat()" id="button">Repeat</button>
+					 </div>
+
+					 <div class="joker">
+						 <button type="button" onclick="joker()" id="buttond">Joker</button>
+					 </div>
+
+	</div>
+<script src="js/script.js"></script>
+</body>
+</html>

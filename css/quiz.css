@@ -1,0 +1,190 @@
+body{
+	background: transparent url('../img/bg.png') center no-repeat;
+	font-family: 'Poppins',sans-serif;
+	background-size: cover;
+	height: 900px;
+	margin:0;
+	padding:0;
+}
+*{
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+h1{
+	font-family: 'Press Start 2P', cursive;
+	text-shadow: 0 0 20px #00E8FF;
+	text-align: center;
+	color: #ffffff;
+	font-size: 55px;
+	font-weight: 300;
+	margin:30px 0px 20px;
+}
+
+span {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  display: block;
+  text-shadow: 0 0 20px #00E8FF;
+  color: white;
+  font-size: 25px;
+  font-weight: 200;
+}
+
+.quizmitte{
+	height: 500px;
+	width: 850px;
+	background-color: rgba(122, 0, 75, 0.5);
+	margin:50px auto;
+	border-radius: 8px;
+	padding: 30px;
+}
+
+.quizmitte .question{
+	padding: 15px;
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 8px;
+	color:#ffffff;
+	font-size:20px;
+	float: left;
+	width: 100%;
+}
+
+.quizmitte .options{
+	float: left;
+	width: 100%;
+}
+
+.quizmitte .options ul{
+	list-style: none;
+	padding: 0px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.quizmitte .options ul li{
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 47%;
+	padding: 15px;
+	border-radius:8px;
+	margin-top: 25px;
+	font-size: 15px;
+	color:#ffffff;
+	box-shadow: 0px 3px 0px grey;
+	cursor: pointer;
+	outline: none;
+	text-align: center;
+}
+
+.quizmitte .options ul li:active{
+	box-shadow: 0px 3px 0px transparent;
+
+}
+.quizmitte .options ul li.correct{
+	background-color: #0fd40f;
+	box-shadow: 0px 3px 0px #03a503;
+}
+
+.quizmitte .options ul li.wrong{
+	background-color: #e91e1e;
+	box-shadow: 0px 3px 0px #cb0b0b;
+}
+
+.quizmitte .score{
+	float: right;
+	width: 100%;
+	padding: 15px 0px;
+}
+
+.quizmitte .timer {
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 8px;
+	color:#ffffff;
+	font-size:20px;
+	float: left;
+	width: 20%;
+	padding: 20px;
+	text-align: center;
+	width: 20%;
+}
+
+.quizmitte .repeat{
+	width: 30%;
+	float: left;
+	margin-top: 25px;
+}
+
+.quizmitte .repeat button{
+	padding: 15px 75px;
+	color:white;
+	background-color: rgba(250, 170, 0, 0.5);
+	border:none;
+	border-radius:8px;
+	font-size: 15px;
+	cursor: pointer;
+	box-shadow: 0px 3px 0px #c97a06;
+	outline: none;
+}
+
+.quizmitte .next{
+	width: 30%;
+	float: left;
+	margin-top: 25px;
+}
+
+.quizmitte .next button{
+	padding: 15px 80px;
+	color:white;
+	background-color: rgba(250, 170, 0, 0.5);
+	border:none;
+	border-radius:8px;
+	font-size: 15px;
+	cursor: pointer;
+	box-shadow: 0px 3px 0px #c97a06;
+	outline: none;
+}
+
+.quizmitte .joker{
+	width: 30%;
+	float: left;
+	margin-top: 25px;
+}
+
+.quizmitte .joker button{
+	padding: 15px 75px;
+	color:white;
+	background-color: rgba(250, 170, 0, 0.5);
+	border:none;
+	border-radius:8px;
+	font-size: 15px;
+	cursor: pointer;
+	box-shadow: 0px 3px 0px #c97a06;
+	outline: none;
+}
+
+.quizmitte .next button:active{
+box-shadow: 0px 3px 0px transparent;
+}
+
+.quizmitte .score .score-card{
+	width: 20%;
+	float: right;
+}
+
+.quizmitte .score .score-card{
+	font-size: 20px;
+	color:black;
+	line-height: 50px;
+	text-transform: uppercase;
+}
+
+.quizmitte .score .score-card span{
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 5px 20px;
+	border-radius: 8px;
+	color:#ffffff;
+
+}
